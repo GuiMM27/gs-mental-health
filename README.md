@@ -10,7 +10,7 @@ API RESTful desenvolvida em Java com Spring Boot para monitoramento de bem-estar
 
 ## 🛠️ Tecnologias e Versões
 * **Java:** 21 
-* **Spring Boot:** 3.3.x
+* **Spring Boot:** 3.5.7
 * **Banco de Dados:** H2 Database (Em memória)
 * **Persistência:** Spring Data JPA
 * **Validação:** Bean Validation (Jakarta Validation)
