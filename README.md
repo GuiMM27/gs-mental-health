@@ -41,27 +41,46 @@ Password: (deixe em branco)
 📡 Endpoints e Exemplos de Uso
 A API já inicia com dados carregados (Seeds) para teste imediato.
 
-1️⃣ Pacientes
-Listar todos os pacientes
+Markdown
 
-GET /pacientes
+### 1️⃣ Pacientes
 
-Cadastrar novo paciente
+**Listar todos os pacientes**
+* **GET** `/pacientes`
 
-POST /pacientes
+**Buscar por ID**
+* **GET** `/pacientes/{id}`
 
-Body (JSON):
-
-JSON
-
+**Cadastrar novo paciente**
+* **POST** `/pacientes`
+* **Body (JSON):**
+```json
 {
   "nome": "Ana Souza",
   "email": "ana.souza@email.com",
   "dataNascimento": "1998-03-15"
 }
-Buscar por ID
+```
+Atualizar paciente
 
-GET /pacientes/{id}
+PUT /pacientes/{id}
+
+Body (JSON):
+
+```JSON
+
+{
+  "nome": "Ana Souza Silva",
+  "email": "ana.silva@email.com",
+  "dataNascimento": "1998-03-15"
+}
+```
+Deletar paciente
+
+DELETE /pacientes/{id}
+
+
+---
 
 2️⃣ Registros Diários
 Listar todos os registros
