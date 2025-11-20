@@ -18,7 +18,7 @@ API RESTful desenvolvida em Java com Spring Boot para monitoramento de bem-estar
 ## 🚀 Como Executar o Projeto
 1. **Clone o repositório:**
    ```bash
-   git clone <SEU_LINK_DO_GITHUB>
+   git clone https://github.com/GuiMM27/gs-mental-health.git
 Importe o projeto na sua IDE de preferência (VS Code, IntelliJ ou Eclipse).
 
 Aguarde o Maven baixar todas as dependências.
